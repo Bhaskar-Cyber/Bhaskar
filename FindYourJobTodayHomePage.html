@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Your Dream Job Today</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+
+        header {
+            background-color: rgb(22, 149, 228);
+            color: #fff;
+            padding: 4px 0px;
+            text-align: center;
+        }
+        .head {
+            font-weight: bold;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #002a80;
+            padding: 4px 0px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+
+
+        .search-bar {
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        .search-bar input {
+            padding: 10px;
+            width: 300px;
+            margin-right: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .search-bar button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .search-bar button:hover {
+            background-color: #45a049;
+        }
+
+       .job-listings {
+            max-width: 1200px;
+            margin: 40px auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .job-card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .job-card h3 {
+            margin: 0 0 10px;
+        }
+
+        .job-card p {
+            color: #555;
+            font-size: 0.9em;
+        }
+
+        .job-card button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .job-card button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+
+    .nav-buttons {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      transform: translateY(-50%);
+    }
+
+    .nav-button {
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      font-size: 18px;
+    }
+
+    .nav-button:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 claas="head">Find Your Dream Job Today</h1>
+        <p>Welcome to All Jobs Portal</p>
+    </header>
+
+    <nav>
+        <a href="FindYourJobTodayHomePage.html">Home</a>
+        <a href="FindYourJobTodayHomePageIT.html">Computer Science / IT</a>
+        <a href="FindYourJobTodayHomePageGovt.html">Government</a>
+        <a href="FindYourJobTodayHomePageECE.html">Electronics and Communication</a>
+        <a href="FindYourJobTodayHomePageElectrical.html">Electrical</a>
+        <a href="FindYourJobTodayHomePageCivil.html">Civil</a>
+        <a href="FindYourJobTodayHomePageMechanical.html">Mechanical</a>
+        <a href="FindYourJobTodayHomePageParmacy.html">Pharmacy</a>
+        <a href="FindYourJobTodayHomePageParmacy.html">Others</a>
+    </nav>
+
+    <section class="hero">
+        
+    </section>
+
+    <div class="search-bar">
+        <h1>Resent Posted Jobs</h1>
+        <input type="text" placeholder="Search jobs...">
+        <button>Search</button>
+    </div>
+
+    <section class="job-listings">
+        <div class="job-card" id="newBefore">
+            <h3>Frontend Developer</h3>
+            <p>Location: Remote</p>
+            <p>Experience: 2+ years</p>
+            <a href="FindYourJobTodayAboutJobDetails.html"><button>Apply Now</button></a>
+        </div>
+        <div class="job-card">
+            <h3>Backend Engineer</h3>
+            <p>Location: New York, USA</p>
+            <p>Experience: 3+ years</p>
+            <a href="FindYourJobTodayAboutJobDetails.html"><button>Apply Now</button></a>
+        </div>
+        <div class="job-card">
+            <h3>Data Scientist</h3>
+            <p>Location: San Francisco, USA</p>
+            <p>Experience: 1+ years</p>
+            <a href="FindYourJobTodayAboutJobDetails.html"><button>Apply Now</button></a>
+        </div>
+        <div class="job-card">
+            <h3>UI/UX Designer</h3>
+            <p>Location: Remote</p>
+            <p>Experience: Fresher</p>
+            <a href="FindYourJobTodayAboutJobDetails.html"><button>Apply Now</button></a>
+        </div>
+        <div class="job-card">
+            <h3>Data Scientist</h3>
+            <p>Location: San Francisco, USA</p>
+            <p>Experience: 1+ years</p>
+            <button>Apply Now</button>
+        </div>
+        <div class="job-card">
+            <h3>UI/UX Designer</h3>
+            <p>Location: Remote</p>
+            <p>Experience: Fresher</p>
+            <button>Apply Now</button>
+        </div>
+        <div class="job-card">
+            <h3>Frontend Developer</h3>
+            <p>Location: Remote</p>
+            <p>Experience: 2+ years</p>
+            <button>Apply Now</button>
+        </div>
+        <div class="job-card">
+            <h3>Backend Engineer</h3>
+            <p>Location: New York, USA</p>
+            <p>Experience: 3+ years</p>
+            <button>Apply Now</button>
+        </div>
+        <div class="job-card">
+            <h3>Data Scientist</h3>
+            <p>Location: San Francisco, USA</p>
+            <p>Experience: 1+ years</p>
+            <button>Apply Now</button>
+        </div>
+        <div class="job-card">
+            <h3>UI/UX Designer</h3>
+            <p>Location: Remote</p>
+            <p>Experience: Fresher</p>
+            <button>Apply Now</button>
+        </div>
+        <div class="job-card">
+            <h3>Data Scientist</h3>
+            <p>Location: San Francisco, USA</p>
+            <p>Experience: 1+ years</p>
+            <button>Apply Now</button>
+        </div>
+        <div class="job-card">
+            <h3>UI/UX Designer</h3>
+            <p>Location: Remote</p>
+            <p>Experience: Fresher</p>
+            <button>Apply Now</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 AllJobs Portal. All rights reserved. <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+
+
+    <script>
+        // Create a new job card element
+        var newJobCard = document.createElement('div');
+        newJobCard.classList.add('job-card'); // Add the job-card class
+    
+        // Add content to the new job card
+        newJobCard.innerHTML = `
+            <h3>Full Stack Developer</h3>
+            <p>Location: Hyderabad</p>
+            <p>Experience: Fresher</p>
+           <a href="FindYourJobTodayAboutJobDetails.html"><button>Apply Now</button></a>
+        `;
+    
+        // Get the job listings container
+        var jobListings = document.querySelector('.job-listings');
+    
+        // Insert the new job card at the beginning
+        jobListings.insertBefore(newJobCard, jobListings.firstChild);
+
+         
+
+
+         // Create a new job card element
+         var newJobCard = document.createElement('div');
+        newJobCard.classList.add('job-card'); // Add the job-card class
+    
+        // Add content to the new job card
+        newJobCard.innerHTML = `
+            <h3>Full Stack Developer</h3>
+            <p>Location: Hyderabad</p>
+            <p>Experience: Fresher</p>
+            <a href="FindYourJobTodayAboutJobDetails.html"><button>Apply Now</button></a>
+        `;
+    
+        // Get the job listings container
+        var jobListings = document.querySelector('.job-listings');
+    
+        // Insert the new job card at the beginning
+        jobListings.insertBefore(newJobCard, jobListings.firstChild);
+
+
+    </script>
+    
+</body>
+</html>
